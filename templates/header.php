@@ -22,14 +22,14 @@ include_once("helpers/url.php");
 <body>
     <header>
         <a href="<?= $BASE_URL ?>" id="logo">
-            <img src="<?= $BASE_URL ?>/img/php.svg" alt="PHP">
+            <img src="<?= $BASE_URL ?>/img/Php_logo.svg" alt="PHP">
         </a>
         <nav>
-            <ul id="nav">
-                <li><a href="<?=$BASE_URL ?>">Home</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="<?=$BASE_URL ?>/contato.php">Contato</a></li>
+            <ul id="navbar">
+                <li><a href="<?=$BASE_URL ?>" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li><a href="<?=$BASE_URL ?>/contato.php" class="nav-link">Contato</a></li>
             </ul>
         </nav>
     </header>

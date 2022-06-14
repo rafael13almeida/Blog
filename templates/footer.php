@@ -1,6 +1,6 @@
 
 <footer>
-    <p>Bora Aprender !! &copy; Fael - 2022</p>
+    <p>Bora Aprender !! &copy; Rafael Almeida - 2022</p>
 </footer>
 </body>
 </html>
