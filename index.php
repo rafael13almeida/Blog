@@ -9,7 +9,7 @@ include_once("templates/header.php");
     </div>
     <div id="post-container">
         <?php foreach($posts as $post): ?>
-            <div id="post-box">
+            <div class="post-box">
                 <img src="<?= $BASE_URL ?>/img/<?= $post['img'] ?>" alt="<?= $post['titulo'] ?>">
                 <h2 class="post-titulo">
                     <a href="<?= $BASE_URL ?>post.php?id=<?= $post['id'] ?>"> <?= $post['titulo'] ?></a>

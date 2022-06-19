@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f0f0f0;
+}
+
 html {
     min-height: 100vh;
     position: relative;
@@ -49,6 +53,76 @@ main {
 
 #navbar .nav-link:hover {
     color: #a2c2ec;
+}
+
+#titulo-container {
+    min-width: 500px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#titulo-container h1 {
+    font-size: 50px;
+}
+
+#titulo-container p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+}
+
+#post-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-box:first-child {
+    min-width: 100%;
+}
+
+.post-box {
+    flex: 1 1 0;
+    margin-bottom: 20px;
+}
+
+.post-box:nth-child(3) {
+    margin: 0 1%;
+}
+
+.post-box img {
+    width: 100%;
+}
+
+.post-box .post-titulo {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.post-box .post-titulo a {
+    color: #000000;
+}
+
+.post-box .post-titulo a:hover {
+    color: #a2c2ec;
+    transition: .5s;   
+}
+
+.post-box .post-descricao {
+    color: #6b6b6b;
+}
+
+.tags-container {
+    margin-top: 10px;
+}
+
+.tags-container a {
+    font-size: 14px;
+    color: #333333;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 footer {
