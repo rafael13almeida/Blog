@@ -16,7 +16,7 @@ if (isset($_GET['id'])) {
 ?>
 <main id="post-container">
     <div class="content-container">
-        <h1 id="main-title"><?= $postAtual['titulo'] ?></h1>
+        <h1 id="main-titulo"><?= $postAtual['titulo'] ?></h1>
         <p id="post-descicao"><?= $postAtual['descricao'] ?></p>
         <div class="img-container">
             <img src="<?= $BASE_URL ?>/img/<?= $postAtual['img'] ?>" alt="<?= $postAtual['titulo'] ?>">
@@ -42,23 +42,24 @@ if (isset($_GET['id'])) {
 
             – Teste de stress – aqui leva-se o software ao seu limite de potência e funcionamento, para mais ou para menos, de modo a avaliar em qual ponto ele deixa de funcionar adequadamente. Isso é feito para verificar se suas especificações máximas ou mínimas de uso estão corretas.</p>
     </div>
+
+    <aside class="nav-container">
+        <h3 id="tags-titulo">Tags</h3>
+        <ul id="tag-list">
+            <?php foreach ($postAtual['tags'] as $tag) : ?>
+                <li><a href="#"><?= $tag ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+
+        <h3 id="categorias-titulo">Categorias</h3>
+        <ul id="categoria-list">
+            <?php foreach ($categorias as $categoria) : ?>
+                <li><a href="#"><?= $categoria ?></a></li>
+            <?php endforeach; ?>
+        </ul>
+    </aside>
+
 </main>
-<aside id="nav-container">
-    <h3 class="tags-titulo">Tags</h3>
-    <ul class="tag-list">
-        <?php foreach ($postAtual['tags'] as $tag) : ?>
-            <li><a href="#"><?= $tag ?></a></li>
-        <?php endforeach; ?>
-    </ul>
-
-    <h3 id="categorias-titulo">Categorias</h3>
-    <ul id="categorias-list">
-    <?php foreach ($categorias as $categoria) : ?>
-            <li><a href="#"><?= $categoria ?></a></li>
-        <?php endforeach; ?>
-    </ul>
-</aside>
-
 
 <?php
 include_once("templates/footer.php");
