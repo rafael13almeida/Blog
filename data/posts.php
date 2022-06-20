@@ -19,14 +19,14 @@
       'id' => 3,
       'titulo' => 'Teste de Software',
       'descricao' => 'A lógica de programação é o ponto inicial de muitos estudantes de programação, será que é importante?',
-      'tags' => ['lógica', 'programação', 'algoritmos'],
+      'tags' => ['Teste', 'programação', 'Qa'],
       'img' => 'img03.jpg',
     ],
     [
       'id' => 4,
       'titulo' => 'SQL',
       'descricao' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['programação', 'PHP', 'lógica de programação'],
+      'tags' => ['banco de dados', 'PHP', 'lógica de programação'],
       'img' => 'img04.jpg'
     ],
   ];

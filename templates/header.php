@@ -5,7 +5,7 @@ include_once("data/categories.php");
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -17,14 +17,14 @@ include_once("data/categories.php");
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
-    <title>Blog - Hora do PHP</title>
+    <title>Blog do Fael</title>
 
 </head>
 
 <body>
     <header>
         <a href="<?= $BASE_URL ?>" id="logo">
-            <img src="<?= $BASE_URL ?>/img/Php_logo.svg" alt="PHP">
+            <img src="<?= $BASE_URL ?>/img/Php_logo.svg" alt="Programação">
         </a>
         <nav>
             <ul id="navbar">
