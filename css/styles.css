@@ -125,6 +125,53 @@ main {
     margin-right: 5px;
 }
 
+/* CONTATO */
+
+#contato-email {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+    color: #333333;
+}
+
+#contato-linkedin h3 {
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #333333;
+}
+
+#contato-linkedin a {
+    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+#contato-linkedin :hover a {
+    margin-top: 30px;
+    color: #a2c2ec;
+    margin-left: 40px;
+}
+
+#contato-github h3 {
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #333333;
+}
+
+#contato-github a {
+    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+#contato-github :hover a {
+    margin-top: 30px;
+    color: #a2c2ec;
+    margin-left: 40px;
+}
+
 /* POST */
 
 #post-container {
