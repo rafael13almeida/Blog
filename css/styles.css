@@ -55,6 +55,8 @@ main {
     color: #a2c2ec;
 }
 
+/* HOME */
+
 #titulo-container {
     min-width: 500px;
     text-align: center;
@@ -123,6 +125,27 @@ main {
     color: #333333;
     display: inline-block;
     margin-right: 5px;
+}
+
+/* SOBRE*/
+
+#titulo-sobre {
+    min-width: 500px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-sobre {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#post-sobre {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 /* CONTATO */
